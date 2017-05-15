@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChemQuest - Copy.Plugins", "ChemQuest - Copy.Plugins.csproj", "{CF5EF41A-CC4F-A7A1-9258-829A025568C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChemQuest - Copy", "ChemQuest - Copy.csproj", "{8C2A35D0-5A47-D49B-C962-C9241B4E6AD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChemQuest - Copy.Editor.Plugins", "ChemQuest - Copy.Editor.Plugins.csproj", "{E25FE059-0093-E64C-1ACF-181511E2D89A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChemQuest - Copy.Editor", "ChemQuest - Copy.Editor.csproj", "{ADF09353-9F0E-DA3A-660A-8E955C0DEE43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF5EF41A-CC4F-A7A1-9258-829A025568C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF5EF41A-CC4F-A7A1-9258-829A025568C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF5EF41A-CC4F-A7A1-9258-829A025568C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF5EF41A-CC4F-A7A1-9258-829A025568C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C2A35D0-5A47-D49B-C962-C9241B4E6AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C2A35D0-5A47-D49B-C962-C9241B4E6AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C2A35D0-5A47-D49B-C962-C9241B4E6AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C2A35D0-5A47-D49B-C962-C9241B4E6AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E25FE059-0093-E64C-1ACF-181511E2D89A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E25FE059-0093-E64C-1ACF-181511E2D89A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E25FE059-0093-E64C-1ACF-181511E2D89A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E25FE059-0093-E64C-1ACF-181511E2D89A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF09353-9F0E-DA3A-660A-8E955C0DEE43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF09353-9F0E-DA3A-660A-8E955C0DEE43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF09353-9F0E-DA3A-660A-8E955C0DEE43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF09353-9F0E-DA3A-660A-8E955C0DEE43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

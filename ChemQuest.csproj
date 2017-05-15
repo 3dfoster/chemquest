@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E4FC30A4-F7A2-4F16-05EB-AFFAA38C29BB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.6.0f3</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;MOBILE_INPUT;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;MOBILE_INPUT;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.ProtocolBuffers">
+      <HintPath>Assets\Plugins\Google.ProtocolBuffers.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="ChemQuest.Plugins.csproj">
+      <Project>{AF4BBC22-AE0E-3E11-BCC6-432295D5CE85}</Project>
+      <Name>ChemQuest.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Combine.cs" />
+    <Compile Include="Assets\Elementz.cs" />
+    <Compile Include="Assets\FireScript.cs" />
+    <Compile Include="Assets\GameOver.cs" />
+    <Compile Include="Assets\GlobalVariables.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoInputManager.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoSceneManager.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\GVRDemo\GVRDemoManager.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\GVRDemo\Teleport.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\PermissionsDemo\PermissionsFlowManager.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\JumpToPage.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\PageProviders\ChildrenPageProvider.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\PageProviders\IPageProvider.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\PageProviders\PooledPageProvider.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\PageProviders\PrefabPageProvider.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\PagedScrollBar.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\PagedScrollRect.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\ScrollEffects\BaseScrollEffect.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\ScrollEffects\BaseTile.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\ScrollEffects\FadeScrollEffect.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\ScrollEffects\FloatTile.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\ScrollEffects\MaskedTile.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\ScrollEffects\ScaleScrollEffect.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\ScrollEffects\TileScrollEffect.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\ScrollEffects\TiledPage.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\ScrollEffects\TranslateScrollEffect.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\Pooling\GameObjectPool.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\Pooling\GameObjectPoolController.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\Pooling\IObjectPool.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\Pooling\ObjectPool.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\Pooling\ObjectPoolManager.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\Tabs\Tab.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\Tabs\TabGroup.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\Transitions\IUITransition.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\Transitions\UIFadeTransition.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\AppButtonInput.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\AutoPlayVideo.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\InputEvents.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\MenuHandler.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\PositionSwapper.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\ScrubberEvents.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\SwitchVideos.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\ToggleAction.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\VideoControlsManager.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\VideoPlayerReference.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\GvrHead.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\GvrCameraUtils.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\GvrEye.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\GvrPostRender.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\GvrPreRender.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\GvrProfile.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\StereoController.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\StereoRenderEffect.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\VRDevices\AndroidDevice.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\VRDevices\BaseAndroidDevice.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\VRDevices\BaseVRDevice.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\VRDevices\EditorDevice.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\VRDevices\GvrDevice.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\VRDevices\UnityVRDevice.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\VRDevices\iOSDevice.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\UI\GvrGaze.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\UI\GvrReticle.cs" />
+    <Compile Include="Assets\GoogleVR\Legacy\Scripts\UI\IGvrGazeResponder.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudio.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudioListener.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudioRoom.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudioSoundfield.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudioSource.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrArmModel.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrArmModelOffsets.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrBatteryIndicator.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrController.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrControllerVisual.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrControllerVisualManager.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrPointerManager.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrRecenterOnlyController.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrTooltip.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviderFactory.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\AndroidNativeControllerProvider.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\DummyControllerProvider.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\EmulatorControllerProvider.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerState.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorClientSocket.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorConfig.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorDataTypes.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorManager.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\PhoneEvent.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\IControllerProvider.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrBasePointer.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrBasePointerRaycaster.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrEventInterfacesExtension.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrExecuteEventsExtension.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrPointerGraphicRaycaster.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrPointerInputModule.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrPointerPhysicsRaycaster.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrPointerScrollInput.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\GvrSettings.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\GvrUnitySdkVersion.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\GvrViewer.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Permissions\GvrPermissionsRequester.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Pose3D.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\UI\GvrBaseControllerVisual.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\UI\GvrDropdown.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\UI\GvrLaserPointer.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\UI\GvrLaserPointerImpl.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\UI\GvrReticlePointer.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\UI\GvrReticlePointerImpl.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\UI\GvrTouchPoint.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrActivityHelper.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrDaydreamApi.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrFPS.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrIntent.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrUIHelpers.cs" />
+    <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
+    <Compile Include="Assets\ResetScript.cs" />
+    <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
+    <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\Water.cs" />
+    <Compile Include="Assets\WaterRise.cs" />
+    <Compile Include="Assets\_Scenes\Scripts\CameraController.cs" />
+    <Compile Include="Assets\_Scenes\Scripts\LoadSceneOnClick.cs" />
+    <Compile Include="Assets\_Scenes\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\_Scenes\Scripts\Rotator.cs" />
+    <Compile Include="Assets\_Scenes\Scripts\titleFadeIn.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Day-Night Skyboxes\readme.txt" />
+    <None Include="Assets\GoogleVR\Demos\Environment\DemoEnvUnlitGrayscale.shader" />
+    <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoAmbientOcclusion.shader" />
+    <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoUnlitGrayscaleToColor.shader" />
+    <None Include="Assets\GoogleVR\Demos\Shaders\VideoDemo\VideoDemoInsideShader.shader" />
+    <None Include="Assets\GoogleVR\Demos\Shaders\VideoDemo\VideoDemoStereoShader.shader" />
+    <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
+    <None Include="Assets\GoogleVR\Legacy\Resources\SolidColor.shader" />
+    <None Include="Assets\GoogleVR\Legacy\Resources\UnlitTexture.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrUIOverlay.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrUnityCompatibility.cginc" />
+    <None Include="Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlay.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlayColor.shader" />
+    <None Include="Assets\HolyShift\Shaders\FXWaterLowpoly.shader" />
+    <None Include="Assets\HolyShift\Shaders\WaterInclude.cginc" />
+    <None Include="Assets\Plugins\Android\AndroidManifest-Cardboard.xml" />
+    <None Include="Assets\Plugins\Android\AndroidManifest-Daydream.xml" />
+    <None Include="Assets\Plugins\Android\proguard-gvr.txt" />
+    <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
+    <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Readme.txt" />
+    <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+    <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+    <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+    <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+    <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+    <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
+    <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+    <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+    <None Include="Assets\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
+    <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
+    <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

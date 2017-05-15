@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChemQuest.Plugins", "ChemQuest.Plugins.csproj", "{AF4BBC22-AE0E-3E11-BCC6-432295D5CE85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChemQuest", "ChemQuest.csproj", "{E4FC30A4-F7A2-4F16-05EB-AFFAA38C29BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChemQuest.Editor.Plugins", "ChemQuest.Editor.Plugins.csproj", "{ADEE4968-28DB-947B-DF51-E0D5AD401F75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChemQuest.Editor", "ChemQuest.Editor.csproj", "{6662CEC7-62A1-D179-7601-503D1D2EE75E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF4BBC22-AE0E-3E11-BCC6-432295D5CE85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF4BBC22-AE0E-3E11-BCC6-432295D5CE85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF4BBC22-AE0E-3E11-BCC6-432295D5CE85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF4BBC22-AE0E-3E11-BCC6-432295D5CE85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4FC30A4-F7A2-4F16-05EB-AFFAA38C29BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4FC30A4-F7A2-4F16-05EB-AFFAA38C29BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4FC30A4-F7A2-4F16-05EB-AFFAA38C29BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4FC30A4-F7A2-4F16-05EB-AFFAA38C29BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADEE4968-28DB-947B-DF51-E0D5AD401F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADEE4968-28DB-947B-DF51-E0D5AD401F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADEE4968-28DB-947B-DF51-E0D5AD401F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADEE4968-28DB-947B-DF51-E0D5AD401F75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6662CEC7-62A1-D179-7601-503D1D2EE75E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6662CEC7-62A1-D179-7601-503D1D2EE75E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6662CEC7-62A1-D179-7601-503D1D2EE75E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6662CEC7-62A1-D179-7601-503D1D2EE75E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
