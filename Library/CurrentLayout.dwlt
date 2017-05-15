@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 495}
   m_MaxSize: {x: 18008, y: 14045}
   vertical: 0
-  controlID: 249
+  controlID: 232
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 228
+  controlID: 257
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 495}
   m_MaxSize: {x: 10004, y: 14045}
   vertical: 1
-  controlID: 250
+  controlID: 233
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -491,7 +491,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0cfbffffdcfbffff00000000
+    m_ExpandedIDs: dcfbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -555,13 +555,13 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\dafos\Documents\ChemQuest - Copy
+  m_LastProjectPath: C:\Users\dafos\Documents\cq
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: ee240000
     m_LastClickedID: 9454
-    m_ExpandedIDs: 000000000c27000030270000a8280000f02800000c2900002029000072290000b8290000c8290000222a0000062b00009c2c0000ee2c0000722d0000882d00008a2d0000f42d00002e2e00008c300000463200005e320000843200005a330000b83300000434000062350000d83700005c3900005e3900006039000062390000
+    m_ExpandedIDs: 000000000c27000030270000a8280000f02800000c2900002029000072290000b8290000c8290000222a0000062b00009c2c0000ee2c0000722d0000882d00008a2d0000f42d00002e2e00008c300000463200005e320000843200005a330000b83300000434000062350000d8370000b2440000b4440000b6440000b8440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -589,7 +589,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 581}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000c27000030270000a8280000f02800000c2900002029000072290000b8290000c8290000222a0000062b00009c2c0000ee2c0000722d0000882d00008a2d0000f42d00002e2e00008c300000463200005e320000843200005a330000b83300000434000062350000d83700005c3900005e3900006039000062390000
+    m_ExpandedIDs: 000000000c27000030270000a8280000f02800000c2900002029000072290000b8290000c8290000222a0000062b00009c2c0000ee2c0000722d0000882d00008a2d0000f42d00002e2e00008c300000463200005e320000843200005a330000b83300000434000062350000d8370000b2440000b4440000b6440000b8440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
